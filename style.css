@@ -1,0 +1,87 @@
+html, body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    
+}
+.menu ul li {
+    padding: 10px 0;
+    
+}
+.menu ul li a {
+    text-decoration: none !important;
+    
+}
+
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    padding: 10px 20px 0px;
+}
+.header {
+    background-color: #f1f1f1;
+    min-height: 150px;
+}
+.header img {
+    width: 30%;
+    
+}
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+}
+
+.content table {
+    border: solid 1px rgba(0, 0, 0, 0.158);
+    
+}
+
+.content table tbody tr:nth-child(even) td{
+    background-color: lightgray;
+}
+
+.content table tbody tr:hover td{
+    background-color: rgb(177, 177, 177);
+    cursor: pointer;
+}
+
+.content table thead {
+    background-color: rgba(0, 0, 0, 0.247);
+}
+
+.content form iframe{
+   padding-bottom: 20px;
+}
+
+.content form input {
+    margin-bottom: 15px;
+}
+textarea {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+/* .content table  */
+
+.footer {
+    background-color: rgb(238, 238, 238);
+    padding: 10px 20px 0px;
+    min-height: 150px;
+}
